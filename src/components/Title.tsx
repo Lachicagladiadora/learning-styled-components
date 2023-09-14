@@ -1,9 +1,9 @@
-import { TitlePrincipal } from "./styledComponents/TitlePrincipal"
+import { TitleElemental } from "./styledComponents/TitleElemental"
 
 type TitleProps = {children: string}
 
 export const Title = ({children}:TitleProps) => {
   return(
-    <TitlePrincipal>{children}</TitlePrincipal>
+    <TitleElemental>{children}</TitleElemental>
   )
 }
