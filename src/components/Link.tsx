@@ -1,7 +1,7 @@
-
-export const Link = ({ className, children }) => (
-  <a href="" className={className}>
-    {children}
-  </a>
-)
-
+type LinkProps = {
+  children: string;
+  className: string;
+};
+export const Link = ({ children, className }: LinkProps): JSX.Element => (
+  <a href="">{children}</a>
+);
