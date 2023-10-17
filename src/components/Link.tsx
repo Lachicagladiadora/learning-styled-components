@@ -3,5 +3,7 @@ type LinkProps = {
   className: string;
 };
 export const Link = ({ children, className }: LinkProps): JSX.Element => (
-  <a href="">{children}</a>
+  <a href="" className={className}>
+    {children}
+  </a>
 );
